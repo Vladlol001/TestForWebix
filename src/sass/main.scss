@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+#root{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.main__section{
+  width: 300px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 5px;
+  border: 1px solid rgb(175, 126, 175);
+  padding: 10px;
+}
+.buttons{
+  margin-bottom: 10px;
+}
+.readonly{
+  margin-bottom: 10px;
+}
+.tags__area{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgb(175, 126, 175);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.tag{
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(175, 126, 175);
+  padding: 3px;
+  border-radius: 5px;
+  margin-bottom: 10px;  
+}
+#input{
+  width: 150px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(175, 126, 175);
+}
+#btn{
+  padding: 5px 10px;
+  border-radius: 5px; 
+  border: 1px solid rgb(175, 126, 175); 
+}
+.pageNotFound{
+  margin-top: 200px;
+}
+#link{
+  display: block;
+  padding-top: 20px;
+}
+#getInfo{
+  padding: 3px 5px;
+}
