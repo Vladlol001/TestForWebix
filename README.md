@@ -1,4 +1,10 @@
 # Installation
+The first thing to do
+
+```
+Clear LocalStorage
+```
+
 First install dependencies
 
 ```
